@@ -26,13 +26,18 @@ def datacol (df,column,dato):
     columna=df[df[column]==dato]
     return columna
 
-def agrupar (df,group,column):
+def agruparcount (df,group,column):
     """
     agrupar por columna con el método groupby
     y muestra gráfica de líneas
     """
-    df.groupby(group).agg({column:["count"]})
-    df.plot.line()
+    return df.groupby(group).agg({column:["count"]})
+   
+
+def agruparmean(df,group,column):
+    return df.groupby(group).agg({column:["mean"]})
+    
+
 
 
 def barplot(df,column):
@@ -51,9 +56,8 @@ def barline(df,col1,col2):
     creamos un grafico de líneas para saber 
     cuantos sucesos tenemos de cada combinación
     """
-    pd.crosstab(df[col1],df[col2]).plot(color=sns.color_palette('husl',10))
-    fig=plt.gcf()
-    fig.set_size_inches(20,5)
+    return sns.crosstab(df[col1],df[col2]).plot(color=sns.color_palette('husl',10))
+   
 
 
 def top5(df,col):
