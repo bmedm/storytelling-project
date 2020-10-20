@@ -1,10 +1,12 @@
 # STORYTELLING-PROJECT
 
 -------
+![image](https://user-images.githubusercontent.com/66179117/92415334-bb4ca580-f158-11ea-95e4-a30d9e48d62a.png)
+
 ## TERRORISMO EN ESPAÑA
 El proyecto que se llevará a cabo, cuenta con un dataset sobre el terrorismo mundial, que se ha limpiado para centrarnos,principalmente, en los ataques sucedidos en España desde 1970 hasta la actualidad.
 
-![image](https://user-images.githubusercontent.com/66179117/92415334-bb4ca580-f158-11ea-95e4-a30d9e48d62a.png)
+
 
 Se dividirá en 3 archivos ".ipynb". El primero será la limpieza e investigación del dataset completo, el segundo será el proyecto en sí de storytelling y el tercero constará de algunas funciones donde podrás indagar por tu cuenta cuestiones o gráficas básicas.
 
