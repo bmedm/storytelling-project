@@ -1,6 +1,6 @@
 # STORYTELLING-PROJECT
 
--------
+
 ![image](https://user-images.githubusercontent.com/66179117/92415334-bb4ca580-f158-11ea-95e4-a30d9e48d62a.png)
 
 ## TERRORISMO EN ESPAÑA
